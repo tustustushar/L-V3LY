@@ -76,13 +76,13 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 ➼ Helloowww 👋 I can play music in voice chats of Telegeam Groups. I have a lot of cool feature that will amaze you!
 
-➼ Do you want me to play music in your Telegram groups'voice chats? Please click the " cσммαη∂s " button below to know how you can use me.
+➼ Do you want me to play music in your Telegram groups'voice chats? Please click the " cσммαη∂s " button below to know how you can use me [.](https://telegra.ph/file/ee608e4961e05038e65ee.mp4)
 
 ➼ Use the buttons below to know more about me ❤️🔥
 
 ➼ Contact my owner [SOULMATE](t.me/unknown_souImate)
 
-A project by [SOULMATE](t.me/unknown_souImate) ⚡[.](https://telegra.ph/file/ee608e4961e05038e65ee.mp4)
+A project by [SOULMATE](t.me/unknown_souImate)
 """ 
 
 buttons = [
