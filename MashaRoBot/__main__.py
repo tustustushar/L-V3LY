@@ -82,8 +82,8 @@ PM_START_TEXT = """
 
 ➼ Contact my owner [SOULMATE](t.me/unknown_souImate)
 
-A project by [SOULMATE](t.me/unknown_souImate)
-"""
+A project by [SOULMATE](t.me/unknown_souImate) ⚡[.](https://telegra.ph/file/ee608e4961e05038e65ee.mp4)
+""" 
 
 buttons = [
     [
