@@ -74,15 +74,21 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hᴇʏ I'ᴍ Lᴏᴠᴇʟʏ
-I'ᴀᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢɪɴɢ ʀᴏʙᴏᴛ! Cʟɪᴄᴋ *📚ᴄᴏᴍᴍᴀɴᴅs* ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴇxᴏʟᴏʀᴇ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ ᴀɴᴅ ᴍʏ ғᴜɴᴄᴛɪᴏɴs.
-⚡𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲⚡[LOVELY SUPPORT](https://t.me/shayri_of_loves) 😎 [.](https://telegra.ph/file/bf5222d53da56fe688603.jpg) 
+➼ Helloowww 👋 I can play music in voice chats of Telegeam Groups. I have a lot of cool feature that will amaze you!
+
+➼ Do you want me to play music in your Telegram groups'voice chats? Please click the " cσммαη∂s " button below to know how you can use me.
+
+➼ Use the buttons below to know more about me ❤️🔥
+
+➼ Contact my owner [SOULMATE](t.me/unknown_souImate)
+
+A project by [SOULMATE](t.me/unknown_souImate)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD LOVELY TO YOUR GROUP ➕️", url="t.me/LOVELYR_OBOT?startgroup=true"),
+            text="➕️ ADD SOULMATE TO YOUR GROUP ➕️", url="t.me/SouImate_musicbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ABOUT", callback_data="masha_"),
@@ -90,12 +96,12 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="✨LOVELY LOGS✨", url="t.me/LOV3LYLOGS"),
+            text="✨Soulmate LOGS✨", url="https://t.me/SOULMATELOGS"),
         InlineKeyboardButton(
-            text="👥SUPPORT👥", url="https://t.me/LOVELYUPDATES"),
+            text="👥SUPPORT👥", url="https://t.me/joinchat/41PuaorATCA0YTVl"),
     ],
     [  
-        InlineKeyboardButton(text="😈LOVELY DEVS😈", url="https://t.me/LOVELYDEVS"
+        InlineKeyboardButton(text="😈SOULMATE DEVS😈", url="https://t.me/SOULMATEDEVS"
     ),
     ], 
     [
@@ -111,10 +117,10 @@ buttons = [
 
 
 HELP_STRINGS = """
-༆*LOVELY comes with many special features in it*༆
+༆*SOULMATEBOT comes with many special features in it*༆
 ꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF LOVELY*꧂
 𖣘 *All commands can either be used with* `/` *or* `!`.
-𖣘 *If you facing any issue or find any bugs in any command then you can report it in @LOVELYSUPPORTS* [.](https://telegra.ph/file/bf5222d53da56fe688603.jpg)
+𖣘 *If you facing any issue or find any bugs in any command then you can report it in @SOULMAT3SUPPORTS* [.](https://telegra.ph/file/bf5222d53da56fe688603.jpg)
 """
 
 
@@ -363,16 +369,16 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *LOVELY*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *SOULMATE*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
                  ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
-                 \n_Emcee's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://t.me/LOVELYSUPPORTS).
-                 If you have any question about Lovely, let us know at @LOVELYSUPPORTS.""",
+                 \n_LOVELY's licensed under the GNU General Public License v3.0_
+                 Here is the [Dev](https://t.me/tushar204).
+                 If you have any question about Soulmate, let us know at @SOULMAT3SUPPORTS.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -398,8 +404,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *lovely*
-                 \nHere is the [Source Code](https://t.me/LOVELYSUPPORTS) .""",
+            text=""" Hi..🤗 I'm *Soulmate*
+                 \nHere is the [Source Code](https://t.me/SOULMAT3SUPPORTS) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
